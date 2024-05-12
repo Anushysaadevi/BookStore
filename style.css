@@ -1,0 +1,259 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align:inherit;  
+}
+
+.hero{
+	text-align:right;
+}
+
+section nav li{
+    display: inline-block;
+	text-align:right;
+}
+
+.we{
+	text-align:end;
+	margin-block-start:-5%;
+	margin-inline-end:0%;
+}
+
+section nav .logo img{
+    width: 100px;
+	height:90px;
+	cursor: pointer;
+	text-align:left;
+	margin-inline-end:95%;
+	margin-block-start: -2%;
+	filter: drop-shadow(2px 4px 6px #CFF752);
+    transform: rotate(-31deg);
+}
+
+section .main h1{
+    text-align:center;
+    font-size: 55px;
+    color: #A91A0C;
+    text-shadow:2px 6px 5px #F37A6E;
+	
+}
+
+section .main  p{
+    text-align: center;
+    color:black;
+	margin-block-start: -4%;
+}
+
+/*services*/
+
+.services .services_box{
+    width:70%;
+	height:70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+	margin-block-start: 5%;
+}
+
+.services .services_box .services_card{
+    text-align:center;
+    width: 270px;
+    box-shadow: 0 0 8px #DB150B;
+    padding: 15px 10px;
+	margin-right:15px;
+	border-radius: 55%;
+}
+
+/*books*/ 
+
+.ch{
+    text-align:center;
+    font-size: 38px;
+    color :#38C62A;
+    text-shadow:2px 2px 2px #9AF991 ;
+    margin-block-start:7%;
+}	 
+ 
+.Time{
+	width:300px;
+	height:100px;
+	display:flex;
+	font-size:11px;
+	margin-inline-start: -4%;
+	margin-block-end: 13%;
+    margin-block-start: 5%;
+}
+.friend{
+	width: 258px;
+	height:225px;
+	box-shadow: 0 0 8px #115379;
+    padding: 50px 37px;
+	margin-left:90px;
+	border-radius:85%;
+	text-align:initial;
+	font-style: oblique;
+}
+
+img{
+	width:108px;
+	height:100px;
+	cursor: pointer;
+	filter:drop-shadow(2px 4px 6px black);
+     border-radius: 26%;
+}
+
+ .head{
+    text-align:center;
+    font-size: 38px;
+    color :#38C62A;
+    text-shadow:2px 2px 2px #9AF991 ;
+	margin-block-start: 17%;
+}	 
+ 
+.cover{
+	width:300px;
+	height:100px;
+	display:flex;
+	font-size:11px;
+	margin-inline-start: -4%;
+    margin-block-start: 8%; 
+}  
+
+.books{
+	width: 226px;
+	height:270px;
+	box-shadow: 0 0 8px #A90985 ;
+    padding: 36px 35px;
+	margin-left:90px;
+	text-align:initial;
+	font-style: oblique;
+	border-radius: 29%;
+}
+
+img{
+	width:150px;
+	height:100px;
+}
+
+.selling{
+    text-align:center;
+    font-size: 38px;
+    color :#38C62A;
+    text-shadow:2px 2px 2px #F6A5E4  ;
+	margin-top:20%;
+	margin-block-start: 20%;
+}	 
+ 
+.bts{
+	width:300px;
+	height:100px;
+	display:flex;
+	font-size:11px;
+    margin-inline-start: -4%;
+   margin-block-start: 8%; 
+}  
+
+.class{
+	width: 226px;
+	height:292px;
+	box-shadow: 0 0 8px #A90985  ;
+    padding: 36px 35px;
+	margin-left:90px;
+	text-align:initial;
+    font-style: oblique;
+    border-radius: 29%;	
+}
+
+img{
+	width:150px;
+	height:100px;
+}
+.day{
+    text-align:center;
+    font-size: 38px;
+    color :#38C62A;
+    text-shadow:2px 2px 2px #9AF991 ;
+	margin-top:20%;
+	margin-block-start: 20%;
+}
+
+.cs p{
+    text-align: center;
+    color:#478761;
+	margin-block-start: 3%;
+	text-shadow: initial;
+	font-size:29px;
+}	 
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background: #979090;
+	margin-block-start: 2%;
+}
+
+
+footer .footer_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer_main .tag img{
+     width:98px;
+	height:84px;
+}
+
+footer .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: #000;
+   text-shadow:2px 2px 2px #2C4343;
+
+}
+
+footer .footer_main .tag a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+footer .footer_main .tag .search_bar{
+    width: 230px;
+    height: 30px;
+    background: rgb(245, 245, 245);
+    border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+
+footer .footer_main .tag .search_bar button{
+    padding: 7px 15px;
+    background: #089da1;
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.end{ text-align:center;
+      font-weight:700;
+	
+}
+
